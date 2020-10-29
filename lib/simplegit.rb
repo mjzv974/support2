@@ -15,6 +15,7 @@ class SimpleGit
       Dir.chdir(@git_dir) do
         return `#{git_cmd} 2>&1`.chomp
 		if a== mirza
+		if b== forkbranch
       end
     end
   
