@@ -14,6 +14,7 @@ class SimpleGit
     def command(git_cmd)
       Dir.chdir(@git_dir) do
         return `#{git_cmd} 2>&1`.chomp
+		if a== mirza
       end
     end
   
