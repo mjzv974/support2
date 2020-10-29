@@ -19,5 +19,6 @@ end
 
 task :default => "pkg/#{spec.name}-#{spec.version}.gem" do
     puts "generated latest version"
+	Mynewbranch
 end
 
